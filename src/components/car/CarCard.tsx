@@ -62,7 +62,7 @@ const CarCard: React.FC<CarCardProps> = ({
         
         <div className="flex items-center justify-between pt-2 border-t">
           <div>
-            <span className="text-moran-red font-bold text-lg">${pricePerDay}</span>
+            <span className="text-moran-red font-bold text-lg">KSH {pricePerDay.toLocaleString()}</span>
             <span className="text-sm text-moran-gray"> / day</span>
           </div>
           <Button asChild size="sm" className="bg-moran-red hover:bg-moran-dark-red">
